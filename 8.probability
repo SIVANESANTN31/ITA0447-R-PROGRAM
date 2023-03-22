@@ -1,0 +1,5 @@
+marbles.probability <- function(r, b, n, x) {
+  choose(r, x) * choose(b, n - x) / choose(r + b, n)
+}
+
+marbles.probability(8, 9, 5, 2)
